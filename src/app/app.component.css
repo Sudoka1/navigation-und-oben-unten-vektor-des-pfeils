@@ -1,0 +1,64 @@
+.up-navigation {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.down-navigation {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+  position: fixed;
+  bottom: 80px; /* Above the down arrow */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: #f1eded;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+}
+
+.content {
+  font-size: 1.5rem;
+  text-align: center;
+  flex: 1;
+}
+
+.spacer-horizontal {
+  width: 20cm;
+}
